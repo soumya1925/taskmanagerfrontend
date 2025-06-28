@@ -4,8 +4,7 @@ const connectDB = require('./config/database');
 const cors = require('cors');
 
 const allowedOrigins = [
-    'http://localhost:3000',  // local development
-    'https://your-deployed-frontend-url.com'  // production
+    'https://frontend-p219eefna-soumya-rouls-projects.vercel.app/',
 ];
 
 const taskRoutes = require('./routes/task.routes');
